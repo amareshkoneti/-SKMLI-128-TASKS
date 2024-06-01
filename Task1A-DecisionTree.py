@@ -36,6 +36,6 @@ plt.figure(figsize=(15, 10))
 plot_tree(clf, filled=True, feature_names=iris.feature_names, class_names=iris.target_names)
 plt.show()
 
-# Optional: Export the tree as text
+# Export the tree as text
 tree_rules = export_text(clf, feature_names=iris.feature_names)
 print(tree_rules)
